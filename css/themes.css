@@ -1,0 +1,318 @@
+.body{ 
+	background-color: #DC7633;
+	padding:25px;
+	color: #fff;
+	width: 50%;
+	margin:auto;
+}
+
+p.weather_city_title {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.weather_description{
+	text-align: center;
+}
+
+.weather_description{
+	border-top: 1px solid;
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.weather_hover{
+	position: relative;
+}
+
+.weather_hover .live_weather_temp {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 500;
+	display: block;
+	transition: .6s ease;
+}
+
+.weather_hover_effect{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .6s ease;
+}
+
+.weather_hover:hover .weather_hover_effect{
+	opacity: 1;
+}
+.weather_hover:hover .live_weather_temp{
+	opacity: 0;
+}
+
+.weather_hover_text{
+	position: absolute;
+    text-align: center;
+    width: 80%;
+}
+
+.weather_hover_text span{
+	float: right;
+}
+
+.weather_table table td {
+	border:0px solid !important;
+	padding: 5px 3px;
+}
+
+.weather_table table tr {
+	border-bottom:1px solid #999!important;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+.body_themes{
+	padding:35px 20px;
+}
+
+.wether_themes_2_img {
+    width: 36px;
+    float: left;
+    margin-right: 5px;
+}
+
+.wether_themes_2_text p{
+	margin: 0px;
+}
+
+.wether_themes_2_img img {
+    margin-top: 3px;
+}
+
+.wether_themes_2_data .wether_themes_2_text{
+	overflow:overlay;
+}
+
+.wether_themes_2_text .wether_themes_2_day{
+	font-weight: 600;
+	font-size: 11px;
+}
+
+.wether_themes_2_data{
+	overflow: overlay;
+	float: left;
+	margin-right: 8PX;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.wether_themes_3_body{
+	width: 53%;
+	margin: auto;
+	background-image: url(https://wpaddons.net/wp-content/uploads/2017/08/mathilde-guichard-327325.jpg?id=47);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding: 20px;
+}
+
+.wether_themes_3_img {
+    text-align: center;
+    width: 20%;
+    margin:auto; 
+}
+
+.wether_themes_3_icon_and_city{
+	text-align: center;
+}
+
+.wether_themes_3_temp{
+	float: left;
+	padding-right: 15px;
+}
+
+.wether_themes_3_temp h1{
+	font-size: 50px;
+}
+
+.wether_themes_3_more_data p{
+	margin: 0px;	
+}
+.wether_themes_3_today{
+	width: 90%;
+    margin: auto;
+    overflow: overlay;
+}
+
+span.wether_themes_3_icon {
+    margin-right: 5px;
+}
+
+.wether_themes_3_city h1{
+	margin: 0px;
+}
+
+.wether_themes_3_desc p{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.wether_themes_3_data{
+	float: left;
+	text-align: center;
+}
+
+.wether_themes_3_temp_data p{
+	margin:0px; 
+}
+
+.wether_themes_3_day p{
+	margin:0px;
+}
+
+.wether_themes_3_day_5 {
+	margin-top:20px; 
+}
+
+.wether_themes_3_icon_data {
+    margin: 0px 7px 7px 7px;
+}
+
+.wether_themes_3_temp h1 sup {
+	font-size: 30px;
+}
+
+.weather_table table{
+	border: 0px solid;
+}
+
+.body_th{
+	width: 100%;
+	padding: 20px;
+}
+
+.wether_themes_2_th{
+	margin: auto;
+	width: 50%;
+	padding: 15px;
+}
+
+.wether_themes_2_data_th{
+	overflow: overlay;
+	margin-bottom: 10px;
+}
+.wether_themes_2_th {
+   	margin: auto;
+    width: 60%;
+}
+
+.wether_themes_3_body_th {
+    width: 100%;
+    margin: auto;
+    background-image: url(https://wpaddons.net/wp-content/uploads/2017/08/mathilde-guichard-327325.jpg?id=47);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.wether_themes_3_data_th{
+	float: left;
+    text-align: center;
+    width: 38px;
+    margin-right: 5px;
+}
+.wether_themes_3_temp_th{
+	float: left;
+}
+
+.wether_themes_3_desc_th{
+	margin-bottom: 10px;
+}
+
+.wether_themes_3_temp_th h1{
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+.wether_themes_3_more_data_th p{
+	font-size: 10px;
+	margin-bottom:0px; 
+}
+
+.wether_themes_3_temp_data_th p{
+	font-size: 10px;
+	margin-bottom: 0px;
+}
+
+.wether_themes_3_day_th p{
+	font-size: 10px;
+}
+
+@media only screen and (max-width:380px) {
+	.body{
+		width: 90% !important;
+		padding: 10px !important;
+	}
+	p.weather_city_title{
+		font-size: 20px !important;
+	}
+	.weather_hover .live_weather_temp{
+		font-size: 40px !important;
+	}
+	.weather_hover_effect{
+		font-size: 12px !important;
+	}
+	.weather_description{
+		font-size: 12px !important;
+	}
+	.wether_themes_3_body {
+		width: 90%;
+	}
+	.wether_themes_3_more_data{
+		text-align: center;
+	}
+	.wether_themes_3_temp {
+    	float: inherit;
+	}
+	.wether_themes_3_temp h1 {
+		text-align: center;
+	}
+	.body_th{
+		width: 90% !important;
+		padding: 10px !important;
+	}
+	.wether_themes_2_th {
+	    margin: auto;
+	    width: 60%;
+	}
+	.wether_themes_3_body_th{
+		padding: 30px;
+	}
+
+
+}
+
+@media only screen and (max-width: 600px) {
+	.body{
+		width: 70%;
+		padding: 10px;
+	}
+	.wether_themes_3_body{
+		width: 70%;
+	}
+	.body_th{
+		width: 70%;
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.wether_themes_3_body{
+		width: 60%;
+	}
+}
